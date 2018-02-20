@@ -1,9 +1,9 @@
-a=raw_input()
-b=raw_input()
-c=raw_input()
-if a>b && a>c:
-print("a")
-if b>a && b>c:
-print("b")
-if c>a && c>b:
-print("c")
+ a=int(raw_input())
+b=int(raw_input())
+c=int(raw_input())
+if a>b and a>c:
+   print("a")
+if b>a and b>c:
+  print("b")
+if c>a and c>b:
+  print("c")
